@@ -1,0 +1,13 @@
+[package]
+name = "rs-css-tokenize"
+version = "1.0.0"
+edition = "2021"
+description = "CSS tokenizer following W3C spec with error recovery"
+license = "MIT"
+authors = ["Mahmoud ElNemer <sultanelnemer@gmail.com>"]
+repository = "https://github.com/ElNeMeR70/rs-css-tokenize"
+keywords = ["rust", "css", "tokenizer", "web", "parsing"]
+
+[[bin]]
+name = "rs_css_tokenize"
+path = "main.rs"
